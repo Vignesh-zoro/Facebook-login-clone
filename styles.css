@@ -1,0 +1,163 @@
+*
+{
+    margin: 0px;
+}
+#main-div
+{
+   background-color: #f0f2f5;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 50px;
+}
+#logo
+{
+    font-size: 50px;
+    color: #0b66ff;
+    padding: 10px 0px;
+}
+#signup
+{
+    background-color: white;
+    width: 430px;
+    border-radius: 10px;
+}
+#heading
+{
+    text-align: center;
+    padding: 7px;
+}
+#bio
+{
+    padding-top: 5px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+#bio p
+{
+    margin-bottom: 5px;
+}
+#inputs
+{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+input,select
+{
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.names
+{
+    display: flex;
+    width: 48%;
+}
+.number
+{
+    width: 100%;
+    display: flex;
+}
+label
+{
+    font-size: 12px;
+    color: #606770;
+    margin-top: 15px;
+}
+#dob
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#dob1
+{
+    width: 31%;
+    display: flex;
+}
+#gender
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#genders
+{
+    width: 31%;
+    display: flex;
+}
+#radio
+{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#radio p
+{
+    padding-bottom: 0px;
+} 
+.radio-btn
+{
+    margin: 0;
+    width: auto;
+}
+#details
+{
+    padding-top: 20px;
+}
+#details p
+{
+    font-size: 13px;
+    color:#606770 ;
+}
+#details a
+{
+    text-decoration: none;
+}
+#details a:hover
+{
+    color: black;
+}
+#buttonbox
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;
+}
+.bts
+{
+    border: 0px;
+    background-color: green;
+    color: white;
+    padding: 8px 55px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight:500;
+}
+#account 
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;
+}
+#account a
+{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
